@@ -84,5 +84,5 @@ Este projeto é demonstrativo e utiliza uma API fake via JSON Server. Pode ser f
 ## 👨‍💻 Autor
 
 Desenvolvido por Anthony Martins de Castro  
-Projeto acadêmico – Sistema de Controle de Estoque
+Atividade 03 (Algoritmos e Estruturas de Dados 1 (UNISENAC)) – Sistema de Controle de Estoque
 
