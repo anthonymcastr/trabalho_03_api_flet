@@ -25,7 +25,7 @@ ck_informatica/
     - graf_caros.py                    # Gráfico dos produtos mais caros
     - graf_marcas.py                   # Gráfico de quantidade por marca
 
-trabalho_03_api_flet/
+api_loja_ck/
   - db.json                            # Banco de dados fake (JSON Server)
   - server.py                          # Código da API (mock)
   - README.md                          # Documentação original
