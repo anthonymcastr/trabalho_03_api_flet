@@ -1,0 +1,180 @@
+{
+  "produtos": [
+    {
+      "id": "i1a1",
+      "nome": "Notebook Gamer",
+      "marca": "Dell",
+      "categoria": "Computadores",
+      "quant": 5,
+      "preco": 3000
+    },
+    {
+      "id": "i1a2",
+      "nome": "Mouse Gamer RGB",
+      "marca": "Logitech",
+      "categoria": "Periféricos",
+      "quant": 25,
+      "preco": 179.9
+    },
+    {
+      "id": "i1a3",
+      "nome": "Teclado Mecânico",
+      "marca": "HyperX",
+      "categoria": "Periféricos",
+      "quant": 15,
+      "preco": 399
+    },
+    {
+      "id": "i1a4",
+      "nome": "Monitor 24” Full HD",
+      "marca": "Samsung",
+      "categoria": "Monitores",
+      "quant": 10,
+      "preco": 899.9
+    },
+    {
+      "id": "i1a5",
+      "nome": "Headset Gamer",
+      "marca": "Redragon",
+      "categoria": "Áudio",
+      "quant": 18,
+      "preco": 249.9
+    },
+    {
+      "id": "i1a6",
+      "nome": "Webcam Full HD",
+      "marca": "Logitech",
+      "categoria": "Acessórios",
+      "quant": 12,
+      "preco": 289.9
+    },
+    {
+      "id": "i1a7",
+      "nome": "Cadeira Gamer",
+      "marca": "ThunderX3",
+      "categoria": "Mobiliário",
+      "quant": 4,
+      "preco": 1299.9
+    },
+    {
+      "id": "i1a8",
+      "nome": "Placa de Vídeo RTX 3060",
+      "marca": "NVIDIA",
+      "categoria": "Hardware",
+      "quant": 3,
+      "preco": 1999.9
+    },
+    {
+      "id": "i1a9",
+      "nome": "Processador Ryzen 5 5600X",
+      "marca": "AMD",
+      "categoria": "Hardware",
+      "quant": 7,
+      "preco": 1149.9
+    },
+    {
+      "id": "i1b0",
+      "nome": "SSD 1TB NVMe",
+      "marca": "Kingston",
+      "categoria": "Armazenamento",
+      "quant": 20,
+      "preco": 499.9
+    },
+    {
+      "id": "i1b1",
+      "nome": "HD 2TB",
+      "marca": "Seagate",
+      "categoria": "Armazenamento",
+      "quant": 10,
+      "preco": 399.9
+    },
+    {
+      "id": "i1b2",
+      "nome": "Fonte 650W 80 Plus Bronze",
+      "marca": "Corsair",
+      "categoria": "Hardware",
+      "quant": 6,
+      "preco": 429.9
+    },
+    {
+      "id": "i1b3",
+      "nome": "Memória RAM 16GB DDR4",
+      "marca": "Crucial",
+      "categoria": "Hardware",
+      "quant": 14,
+      "preco": 349.9
+    },
+    {
+      "id": "i1b4",
+      "nome": "Gabinete Gamer com RGB",
+      "marca": "Cooler Master",
+      "categoria": "Hardware",
+      "quant": 8,
+      "preco": 529.9
+    },
+    {
+      "id": "i1b5",
+      "nome": "Switch 8 Portas Gigabit",
+      "marca": "TP-Link",
+      "categoria": "Redes",
+      "quant": 10,
+      "preco": 179.9
+    },
+    {
+      "id": "i1b6",
+      "nome": "Roteador Dual Band AC1200",
+      "marca": "TP-Link",
+      "categoria": "Redes",
+      "quant": 9,
+      "preco": 239.9
+    },
+    {
+      "id": "i1b7",
+      "nome": "Estabilizador 1000VA",
+      "marca": "SMS",
+      "categoria": "Energia",
+      "quant": 11,
+      "preco": 299.9
+    },
+    {
+      "id": "i1b8",
+      "nome": "No-break 1200VA",
+      "marca": "APC",
+      "categoria": "Energia",
+      "quant": 5,
+      "preco": 789.9
+    },
+    {
+      "id": "i1b9",
+      "nome": "Pen Drive 64GB",
+      "marca": "SanDisk",
+      "categoria": "Armazenamento",
+      "quant": 30,
+      "preco": 79.9
+    },
+    {
+      "id": "i1c0",
+      "nome": "Cabo HDMI 2.0 2m",
+      "marca": "Multilaser",
+      "categoria": "Acessórios",
+      "quant": 40,
+      "preco": 39.9
+    },
+    {
+      "id": "i1c5",
+      "nome": "Cabo HDMI 4.0 10m",
+      "marca": "Multilaser",
+      "categoria": "Acessórios",
+      "quant": 10,
+      "preco": 99.9
+    },
+    {
+      "id": "33af",
+      "nome": "Macbook Edecio",
+      "marca": "Apple",
+      "categoria": "Notebooks",
+      "quant": 1,
+      "preco": 7000
+    }
+  ]
+}
