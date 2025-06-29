@@ -53,14 +53,13 @@ source venv/bin/activate  # Linux/Mac
 pip install flet matplotlib
 ```
 
-### 4. Iniciar a API local (JSON Server necessário – requer Node.js)
-```bash
-npm install -g json-server
-json-server --watch trabalho_03_api_flet/db.json --port 3000
+### 4. Iniciar a API local 
+```
+npx json-server db.json
 ```
 
 ### 5. Executar a aplicação
-```bash
+```
 python ck_informatica/ck_informatica.py
 ```
 
@@ -71,7 +70,7 @@ python ck_informatica/ck_informatica.py
 - Cadastro de produtos com nome, marca, preço, modelo, etc.  
 - Geração de gráficos por marca e por produtos mais caros  
 - API simulada com JSON Server  
-- Interface gráfica amigável com Flet  
+- Interface gráfica com Flet  
 
 ---
 
@@ -84,5 +83,5 @@ Este projeto é demonstrativo e utiliza uma API fake via JSON Server. Pode ser f
 ## 👨‍💻 Autor
 
 Desenvolvido por Anthony Martins de Castro  
-Atividade 03 (Algoritmos e Estruturas de Dados 1 (UNISENAC)) – Sistema de Controle de Estoque
+Atividade 03 (Algoritmos e Estruturas de Dados 1) UNISENAC – Sistema de Controle de Estoque
 
