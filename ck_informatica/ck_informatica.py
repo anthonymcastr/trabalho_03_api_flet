@@ -3,10 +3,10 @@ import requests
 from telas.cad_produtos import cad_produtos
 from telas.graf_marcas import graf_marcas
 from telas.graf_caros import graf_caros
-
+# npx json-server db.json (uso pra rodar a API na outra pasta)
 API_URL = "http://localhost:3000/produtos"
 
-# Busca produtos e retorna cards + totais
+# buscamos os produtos e geramos os cards
 def buscar_produtos_local(termo):
     try:
         response = requests.get(API_URL)
@@ -22,7 +22,7 @@ def buscar_produtos_local(termo):
         total_valor = sum(p["quant"] * p["preco"] for p in filtrados)
         total_itens = len(filtrados)
 
-        cards = [
+        cards = [ 
             ft.Card(
                 elevation=2,
                 surface_tint_color=ft.Colors.BLUE_50,
@@ -34,7 +34,7 @@ def buscar_produtos_local(termo):
             for p in filtrados
         ]
 
-        # Resumo final
+        # produtos encontrados e somatorio total
         cards.append(
             ft.Container(
                 content=ft.Column([
@@ -111,9 +111,9 @@ def main(page: ft.Page):
     page.add(
         ft.Column([
             ft.Text("CK Informática - Cadastro de Produtos", size=30, weight="bold", text_align="center", color=ft.Colors.BLUE_900),
-            nav_buttons,
-            linha_pesquisa,
-            ft.Divider(color=ft.Colors.BLUE_200, thickness=2),
+            nav_buttons, # botões de navegação
+            linha_pesquisa, # pesquisa que acrescentei 
+            ft.Divider(color=ft.Colors.BLUE_200, thickness=2), 
             conteudo_dinamico
         ], scroll=ft.ScrollMode.AUTO)
     )
