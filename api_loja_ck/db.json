@@ -175,6 +175,30 @@
       "categoria": "Notebooks",
       "quant": 1,
       "preco": 7000
+    },
+    {
+      "id": "3323",
+      "nome": "Oculos do devantier",
+      "marca": "Oakley",
+      "categoria": "seminovo",
+      "quant": 1,
+      "preco": 200
+    },
+    {
+      "id": "74f2",
+      "nome": "oculos do bacteria",
+      "marca": "falsificado",
+      "categoria": "ruim",
+      "quant": 4,
+      "preco": 500
+    },
+    {
+      "id": "2c6a",
+      "nome": "Oculos VR Lançamento Felipe Uber",
+      "marca": "Apple",
+      "categoria": "Novo",
+      "quant": 1,
+      "preco": 2500
     }
   ]
 }

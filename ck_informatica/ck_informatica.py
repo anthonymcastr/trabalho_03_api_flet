@@ -105,7 +105,7 @@ def main(page: ft.Page):
         ft.ElevatedButton("Gráfico + Caros", data="graf_caros", on_click=navigate, bgcolor=ft.Colors.BLUE, color=ft.Colors.WHITE),
     ], alignment=ft.MainAxisAlignment.CENTER)
 
-    # Tela inicial
+    # tela principal
     conteudo_dinamico.controls = [cad_produtos(page)]
 
     page.add(
